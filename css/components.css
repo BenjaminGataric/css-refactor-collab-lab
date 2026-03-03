@@ -7,11 +7,18 @@
   padding: 0.75rem 1.75rem; /* top/bottom and left/right padding */
   font-size: 0.875rem; /* slightly smaller than body text */
   font-weight: 700; /* bold text */
+
+
+
+
   letter-spacing: 0.06em; /* spreads the letters out a bit */
   text-transform: uppercase; /* makes all the text caps */
+
   text-decoration: none; /* removes underline */
+
   border: 2px solid transparent; /* border colour is set per variant */
   border-radius: 4px; /* slightly rounded corners */
+
   cursor: pointer; /* shows a hand cursor on hover */
   transition: background-color 200ms ease; /* animates background colour */
 }
@@ -27,7 +34,7 @@
   border-color: #7a1f3d; /* border matches the background */
 }
 
-.btn-primary:hover {
+.btn-primary: hover {
   background-color: #5a1530; /* darker red on hover */
   border-color: #5a1530; /* keep border in sync */
   color: #ffffff; /* keep text white */
@@ -53,6 +60,15 @@
   padding: 1.5rem; /* inner spacing */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* subtle drop shadow */
 }
+
+
+
+
+
+
+
+
+
 
 /* TODO: Add a hover state to .card. A small translateY(-2px) and a slightly
    larger box-shadow gives a nice "lift" effect. You will also need to add a
@@ -83,11 +99,14 @@
   gap: 1.25rem; /* space between each field group */
 }
 
-.form-group {
+
+
+
+  .form-group{
   display: flex; /* stack label above input */
   flex-direction: column; /* label on top, input below */
   gap: 0.375rem; /* small gap between label and input */
-}
+  }
 
 .contact-form label {
   font-size: 0.875rem; /* small label text */
@@ -124,7 +143,9 @@
 }
 
 /* styles email inputs */
-.contact-form input[type="email"] {
+.contact-form input[type="email"]
+
+{
   width: 100%;
   padding: 0.625rem 0.875rem;
   font-family: "Lato", Arial, sans-serif;
@@ -193,6 +214,15 @@
   height: 140px;
   overflow: hidden;
 }
+
+
+
+
+
+
+
+
+
 
 .faq-item h3 {
   color: #7a1f3d; /* red question heading */
