@@ -21,19 +21,19 @@
    so keyboard users can see which button is focused — there is currently no
    visible focus indicator on buttons. */
 
-.btn-primary {
+.btn-primary:focus-visible {
   background-color: #7a1f3d; /* dark red background */
   color: #ffffff; /* white text */
   border-color: #7a1f3d; /* border matches the background */
 }
 
-.btn-primary hover {
+.btn-primary:hover {
   background-color: #5a1530; /* darker red on hover */
   border-color: #5a1530; /* keep border in sync */
   color: #ffffff; /* keep text white */
 }
 
-.btn-secondary {
+.btn-secondary:focus-visible {
   background-color: transparent; /* no fill */
   color: #7a1f3d; /* red text */
   border-color: #7a1f3d; /* red border */
@@ -52,6 +52,12 @@
   border-radius: 8px; /* rounded corners */
   padding: 1.5rem; /* inner spacing */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* subtle drop shadow */
+  transition: transform 200ms ease, box-shadow 200ms ease; /* animate transform and shadow */
+}
+
+.card:hover {
+  transform: translateY(-2px); /* lift the card up slightly */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* stronger shadow on hover */
 }
 
 /* TODO: Add a hover state to .card. A small translateY(-2px) and a slightly
@@ -111,6 +117,8 @@
 }
 
 /* styles text inputs */
+/* styles email inputs */
+.contact-form input[type="email"] 
 .contact-form input[type="text"] {
   width: 100%;
   padding: 0.625rem 0.875rem;
@@ -123,19 +131,10 @@
   outline: none;
 }
 
-/* styles email inputs */
-.contact-form input[type="email"]
-
-{
-  width: 100%;
-  padding: 0.625rem 0.875rem;
-  font-family: "Lato", Arial, sans-serif;
-  font-size: 1rem;
-  color: #1e1a17;
-  background-color: #ffffff;
-  border: 1px solid #e8e4dc;
-  border-radius: 4px;
-  outline: none;
+.contact-form input[type="email"]:focus,
+.contact-form input[type="text"]:focus {
+  border-color: #7a1f3d; /* red border on focus */
+  box-shadow: 0 0 0 2px rgba(122, 31, 61, 0.2); /* subtle red glow */
 }
 
 /* FIXME: the two rules above are identical and already covered by the shared
@@ -192,18 +191,7 @@
   /* FIXME: this fixed height cuts off content if the text is long or the
      browser font size is larger than expected. Remove height and overflow
      so the element sizes itself naturally. */
-  height: 140px;
-  overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
 
 .faq-item h3 {
   color: #7a1f3d; /* red question heading */
