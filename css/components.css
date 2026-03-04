@@ -16,8 +16,6 @@
   transition: background-color 200ms ease; /* animates background colour */
 }
 
-
-
 /* TODO: .btn only transitions background-color. Add color and border-color to
    the transition so changes animate smoothly. Also add a :focus-visible style
    so keyboard users can see which button is focused — there is currently no
@@ -56,15 +54,6 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* subtle drop shadow */
 }
 
-
-
-
-
-
-
-
-
-
 /* TODO: Add a hover state to .card. A small translateY(-2px) and a slightly
    larger box-shadow gives a nice "lift" effect. You will also need to add a
    transition to .card itself so the effect animates instead of snapping. */
@@ -94,10 +83,7 @@
   gap: 1.25rem; /* space between each field group */
 }
 
-
-
-
-  .form-group{
+.form-group{
   display: flex; /* stack label above input */
   flex-direction: column; /* label on top, input below */
   gap: 0.375rem; /* small gap between label and input */
