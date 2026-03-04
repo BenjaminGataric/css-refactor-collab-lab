@@ -2,8 +2,7 @@
 
 ## Team Members
 
-- [Autum Darrell](https://github.com/BreezyAutum)
-- [Ashlyn Knox](https://github.com/ashx3s/)
+- [Ben Gataric](https://github.com/BenjaminGataric)
 
 ---
 
