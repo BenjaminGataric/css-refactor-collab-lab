@@ -5,6 +5,7 @@
 - [Ben Gataric](https://github.com/BenjaminGataric)
 - [Noah Urbano](https://github.com/noahucs)
 - [Devon Huynh](https://github.com/huynhdevon)
+
 ---
 
 ## Lab Instructions
