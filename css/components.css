@@ -7,18 +7,11 @@
   padding: 0.75rem 1.75rem; /* top/bottom and left/right padding */
   font-size: 0.875rem; /* slightly smaller than body text */
   font-weight: 700; /* bold text */
-
-
-
-
   letter-spacing: 0.06em; /* spreads the letters out a bit */
   text-transform: uppercase; /* makes all the text caps */
-
   text-decoration: none; /* removes underline */
-
   border: 2px solid transparent; /* border colour is set per variant */
   border-radius: 4px; /* slightly rounded corners */
-
   cursor: pointer; /* shows a hand cursor on hover */
   transition: background-color 200ms ease; /* animates background colour */
 }
