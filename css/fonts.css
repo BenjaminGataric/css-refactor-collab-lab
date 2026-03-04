@@ -48,7 +48,7 @@ h3 {
 a :focus {
   color: #7a1f3d;
   text-decoration: underline;
-  outline: 2px solid black;
+  outline: 10px solid black;
 }
 
 a :hover {
