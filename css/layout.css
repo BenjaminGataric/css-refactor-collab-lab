@@ -98,8 +98,7 @@ img {
   background-color: #ffffff;
 }
 
-.section--offwhite
-{
+.section--offwhite {
   background-color: #faf8f4;
 }
 
@@ -110,7 +109,7 @@ img {
 
 /* --- hero --- */
 
-.hero{
+.hero {
   background-color: #fdf6e3;
   min-height: 480px;
   padding: 20px;
@@ -140,20 +139,20 @@ img {
   text-align: center;
 }
 
-.page-hero-subtitle{
-    color: #e8e4dc;
+.page-hero-subtitle {
+  color: #e8e4dc;
   max-width: 520px;
   margin: 0 auto;
-  }
+}
 
 /* --- card grid --- */
 @media (min-width: 700px) {
   .card-grid {
-  max-width: 700px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
   }
 }
 /* --- faq --- */
@@ -180,11 +179,11 @@ img {
   justify-content: space-between;
 }
 
-.site-footer p{
+.site-footer p {
   margin: 0;
 }
 
-.footer-nav ul{
+.footer-nav ul {
   display: flex;
   gap: 1.5rem;
 }
