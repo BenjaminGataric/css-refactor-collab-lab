@@ -8,6 +8,8 @@
 
 ## Lab Instructions
 
+HI
+
 ### Learning Objectives
 
 By the end of this lab you should be able to:
